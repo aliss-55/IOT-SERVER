@@ -91,7 +91,7 @@ router.get('/datos/:id_camion', (req, res) => {
     });
 });
 
-// Ruta para actualizar datos por ID_CAMION
+/* Ruta para actualizar datos por ID_CAMION
 router.put('/datos/:id_camion', (req, res) => {
     const id_camion = req.params.id_camion;
     const newData = req.body; // Datos actualizados recibidos en el cuerpo de la solicitud
@@ -157,8 +157,7 @@ router.delete('/datos/:id_camion', (req, res) => {
             });
         }
     });
-});
-
+});*/
 
 module.exports = router;
 
